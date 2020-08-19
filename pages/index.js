@@ -1,4 +1,4 @@
-import { Avatar, ArtistDetails } from 'components/app';
+import { Avatar, ArtistDetails } from 'lib/components/app';
 
 export default function Home() {
 	return (
