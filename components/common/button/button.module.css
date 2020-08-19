@@ -1,0 +1,38 @@
+.btn {
+	padding: 10px 25px;
+	border-radius: 30px;
+	outline: none;
+	font-size: 1.3em;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	min-width: 200px;
+	transition-property: color, background-color, border-color, transform;
+	line-height: 1;
+}
+
+.btn:active {
+	transform: translateY(3px)
+}
+
+.btnFill {
+	composes: btn;
+	border: none;
+	background-color: var(--primary-100);
+	color: var(--light);
+}
+
+.btnFill:hover {
+	background-color: var(--primary-200);
+}
+
+.btnOutline {
+	composes: btn;
+	background-color: transparent;
+	border: 2px solid var(--primary-100);
+	color: var(--primary-100);
+}
+
+.btnOutline:hover {
+	border-color: var(--primary-200);
+	color: var(--primary-200);
+}
