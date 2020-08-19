@@ -2,8 +2,8 @@
   "name": "yasna-front-end-challenge-2",
   "version": "0.1.0",
   "author": {
-	  "email": "faradidev@gmail.com",
-	  "name": "Farhad Sharifi"
+    "email": "faradidev@gmail.com",
+    "name": "Farhad Sharifi"
   },
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
