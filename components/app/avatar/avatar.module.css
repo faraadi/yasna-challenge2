@@ -1,0 +1,9 @@
+.container {
+	width: 230px;
+}
+
+.avatar {
+	width: 100%;
+	border-radius: 100%;
+	cursor: pointer;
+}
