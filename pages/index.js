@@ -1,13 +1,15 @@
-import { Avatar } from 'components/app';
+import { Avatar, ArtistDetails } from 'components/app';
 
 export default function Home() {
 	return (
 		<div>
-			<div>
-				<Avatar />
-				<span>Artist</span>
-				<h1>The Avener</h1>
-				<span>2,46,310 Followers</span>
+			<div className='row'>
+				<div className='col'>
+					<Avatar />
+				</div>
+				<div className="col">
+					<ArtistDetails />
+				</div>
 			</div>
 		</div>
 	);

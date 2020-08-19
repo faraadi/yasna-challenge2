@@ -6,4 +6,8 @@
 	--dark: #273A49;
 	--light: #F1F3F6;
 	--light-pale: rgba(241, 243, 246, 0.6);
+
+	--gutter-tiny: 8px;
+	--gutter-medium: 16px;
+	--gutter-large: 24px;
 }
