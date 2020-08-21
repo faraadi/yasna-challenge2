@@ -1,0 +1,21 @@
+.iconBtn {
+	outline: 0;
+	background-color: transparent;
+	border: 2px solid var(--primary-100);
+	border-radius: 100%;
+	color: var(--primary-100);
+	cursor: pointer;
+	height: 45px;
+	width: 45px;
+	transition-duration: 0.2s;
+	transition-property: background-color color;
+}
+
+.iconBtn>* {
+	vertical-align: middle;
+}
+
+.iconBtn:hover {
+	color: var(--light);
+	background-color: var(--primary-100);
+}

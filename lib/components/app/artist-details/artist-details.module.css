@@ -22,3 +22,7 @@
 	color: var(--dark);
 	font-size: 1.3em;
 }
+
+.likeIcon {
+	margin-right: 20px
+}
