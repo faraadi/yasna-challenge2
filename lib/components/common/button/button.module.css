@@ -4,7 +4,7 @@
 	outline: none;
 	font-size: 1.3em;
 	cursor: pointer;
-	transition-duration: 0.2s;
+	transition-duration: 0.1s;
 	min-width: 200px;
 	transition-property: color, background-color, border-color, transform;
 	line-height: 1;
