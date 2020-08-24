@@ -21,6 +21,8 @@
 .artistFollowers {
 	color: var(--dark);
 	font-size: 1.3em;
+	margin-bottom: 20px;
+	display: inline-block;
 }
 
 .likeIcon {

@@ -20,9 +20,3 @@ h1, h2, h3, h4, h5, h6, p {
 html, body, #__next {
 	min-height: 100%;
 }
-
-body {
-	background-image: url('../public/cover.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
