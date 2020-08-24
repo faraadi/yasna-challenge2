@@ -8,6 +8,7 @@
 	min-width: 200px;
 	transition-property: color, background-color, border-color, transform;
 	line-height: 1;
+	position: relative;
 }
 
 .btn:active {
@@ -33,4 +34,33 @@
 .btnOutline:hover {
 	border-color: var(--primary-200);
 	color: var(--primary-200);
+}
+
+.loading {
+	pointer-events: none;
+    color: transparent;
+    cursor: not-allowed;
+}
+
+.loading::after {
+	cursor: not-allowed;
+	pointer-events: none;
+	color: transparent;
+	width: 20px;
+	height: 20px;
+	display: block;
+	content: "";
+	border-radius: 100%;
+	border: 2px solid transparent;
+	border-top: 2px solid var(--light);
+	animation: btn-loading .5s linear infinite;
+	position: absolute;
+	top: calc(50% - 11px);
+	right: calc(50% - 11px);
+}
+
+@keyframes btn-loading {
+	to {
+		transform: rotate(1turn);
+	}
 }

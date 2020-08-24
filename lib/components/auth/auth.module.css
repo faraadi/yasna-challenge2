@@ -1,0 +1,86 @@
+.container {
+	height: 100%;
+	background-color: var(--dark);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.iconsContainer {
+	margin-bottom: 4em;
+}
+
+.spotifyIcon {
+	width: 70px;
+	height: 70px;
+	fill: var(--primary-100);
+}
+
+.lockIcon {
+	width: 25px;
+	height: 25px;
+	color: var(--grey)
+}
+
+.deviceIcon {
+	width: 64px;
+	height: 64px;
+	color: var(--light);
+}
+
+.glowingLine {
+	width: 100px;
+	margin: 0 10px;
+	border-color: var(--primary-100);
+	animation: lineGlowing 3s infinite;
+}
+
+.title {
+	color: var(--light);
+	font-size: 1.4em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.authBtn {
+	padding: 12px 30px;
+}
+
+.removeLink {
+	color: var(--primary-100);
+	margin-top: 25px;
+	opacity: 0.5;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.footerCaption {
+	text-align: center;
+	color: var(--grey-pale);
+}
+
+.footerLink {
+	color: var(--primary-100);
+}
+
+@keyframes lineGlowing {
+	0% {
+		opacity: 0.1;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 0.1;
+	}
+}
+
+@media (max-width: 600px) {
+	.glowingLine {
+		width: 70px;
+	}
+}
