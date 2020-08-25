@@ -1,3 +1,3 @@
-import { Auth } from 'lib/components/auth';
+import { Auth } from 'lib/components';
 
 export default Auth;

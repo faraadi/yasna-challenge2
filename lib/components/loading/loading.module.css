@@ -1,0 +1,26 @@
+.container {
+	background-color: var(--dark);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.spotifyIcon {
+	fill: var(--primary-100);
+	width: 60px;
+	animation: wave 1.5s ease-in-out infinite;
+	border-radius: 100%;
+}
+
+@keyframes wave {
+	0% {
+		box-shadow: 0px 0px 8px -5px var(--primary-200)
+	}
+	50% {
+		box-shadow: 0px 0px 20px -5px var(--primary-200)
+	}
+	100% {
+		box-shadow: 0px 0px 8px -5px var(--primary-200)
+	}
+}

@@ -1,4 +1,4 @@
-import { App } from 'lib/components/app';
+import { App } from 'lib/components';
 
 export default function AppPage() {
 	return <App />
