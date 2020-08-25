@@ -3,8 +3,6 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	/* flex-grow: 0;
-	flex-shrink: 0; */
 	box-sizing: border-box;
 	flex-basis: 100%;
 	flex-direction: row;
