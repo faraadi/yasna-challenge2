@@ -1,0 +1,53 @@
+.main {
+	background-color: var(--dark);
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.errorIcon {
+	width: 250px;
+	margin-bottom: 3em;
+}
+
+.ops {
+	color: var(--light);
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.caption {
+	color: var(--light);
+	font-size: 1.4em;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.solutionCaption {
+	color: var(--light);
+	text-align: center;
+	line-height: 2.5;
+}
+
+.revokeLink {
+	text-decoration: underline;
+	color: var(--danger)
+}
+
+.signinLink {
+	text-decoration: underline;
+	color: var(--primary-100);
+}
+
+@media (max-width: 600px) {
+	.main {
+		padding: 0 20px
+	}
+	.caption {
+		margin-bottom: 1em
+	}
+}

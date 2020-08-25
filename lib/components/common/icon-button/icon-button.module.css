@@ -5,8 +5,8 @@
 	border-radius: 100%;
 	color: var(--primary-100);
 	cursor: pointer;
-	height: 45px;
-	width: 45px;
+	height: 40px;
+	width: 40px;
 	transition-duration: 0.1s;
 	transition-property: background-color, color, transform;
 }
