@@ -6,11 +6,29 @@
 	align-items: center;
 }
 
+.iconContainer {
+	display: inline-block;
+	position: relative;
+}
+
 .spotifyIcon {
 	fill: var(--primary-100);
 	width: 60px;
-	animation: wave 1.5s ease-in-out infinite;
+	animation: wave 2s ease-in-out infinite;
 	border-radius: 100%;
+}
+
+.iconContainer::after {
+	content: "";
+	border-radius: 100%;
+	border: 2px solid transparent;
+	border-top-color: var(--light);
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;
+	animation: cycle 1s infinite;
 }
 
 @keyframes wave {
@@ -22,5 +40,11 @@
 	}
 	100% {
 		box-shadow: 0px 0px 8px -5px var(--primary-200)
+	}
+}
+
+@keyframes cycle {
+	to {
+		transform: rotate(1turn);
 	}
 }
