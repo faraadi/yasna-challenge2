@@ -1,4 +1,4 @@
-This Projects is a Front-End hiring challenge for [`Yasna Team`](https://yasna.team/). 
+This Projects is a Front-End hiring challenge for [Yasna Team](https://yasna.team/). 
 
 - [Demo](https://yasna-challenge2.vercel.app/)
 - [UI Prototype](https://www.figma.com/file/KA9Bnv3srb9sgpJZ53QqM5/spotify-profile)
