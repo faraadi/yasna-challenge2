@@ -53,7 +53,7 @@ Some configurations can be customized through `env` files placed at project's ro
 both share the same variables. here's a list of available env variables:
 
 | env | Description  |
-| ----------- | ----------- |--- |
+| ----------- | ----------- |
 | `NEXT_PUBLIC_BASE_URL` | basic url of the app. only changes SEO related stuffs.  |
 | `NEXT_PUBLIC_API_URL` | Spotify's API base url. you probably won't going to change this one |
 | `NEXT_PUBLIC_CLIENT_ID` | by default this app uses my Spotify Client ID. you can use your own aslo. but make sure that `NEXT_PUBLIC_REDIRECT_URL` points to one of redirect urls in your Spotify Developer Dashboard, Otherwise spotify won't give you authentication token. |
