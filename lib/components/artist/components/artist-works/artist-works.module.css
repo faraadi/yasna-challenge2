@@ -36,8 +36,6 @@
 	letter-spacing: 5px;
 	display: block;
 	width: 100%;
-	transition-duration: 0.1s;
-	transition-property: background-color, color, text-shadow;
 }
 
 .tabBtnActive {
@@ -51,63 +49,6 @@
 	margin-left: 100px;
 }
 
-.album {
-	--album-padding: 15px;
-	position: relative;
-	display: flex;
-	cursor: pointer;
-	padding: var(--album-padding) !important
-}
-
-.albumThumb {
-	width: 100%;
-}
-
-.albumLinkIcon {
-	color: var(--light);
-	margin-bottom: 2em;
-	width: 35px;
-	height: 35px;
-}
-
-.albumInfo {
-	color: white;
-	text-align: center;
-	position: absolute;
-	top: var(--album-padding);
-	bottom: var(--album-padding);
-	left: var(--album-padding);
-	right: var(--album-padding);
-	flex-direction: column;
-	backdrop-filter: blur(5px);
-	transition-duration: 0.2s;
-	transition-property: background-color, opacity;
-	opacity: 0;
-}
-
-.albumName {
-	transition: transform 0.2s;
-	font-size: 1.4em;
-	padding: 15px;
-}
-
-.albumYear {
-	color: var(--light-pale);
-	display: inline-block;
-	margin-top: 20px;
-	font-size: 1.2rem;
-}
-
-@media (min-width: 1281px) {
-	.album:hover .albumInfo {
-		opacity: 1;
-		background-color: rgba(0, 0, 0, .25);
-	}
-	.album:hover .albumName {
-		transform: translateY(-10px);
-	}
-}
-
 @media (max-width:1440px) {
 	.albumsConainer {
 		margin-left: 20px;
@@ -118,28 +59,6 @@
 	.tabBtn {
 		font-size: 1.4em;
 		padding: 12px 20px;
-	}
-	.album {
-		display: initial;
-	}
-	.albumInfo {
-		position: static;
-		flex-direction: column;
-		opacity: 1;
-	}
-	.albumLinkIcon {
-		display: none;
-	}
-	.albumName {
-		margin-top: 10px;
-		font-size: 1.1em;
-		padding: 0;
-		text-shadow: 0 2px 4px rgba(0, 0, 0, .25);
-	}
-	.albumYear {
-		display: inline-block;
-		margin-top: 10px;
-		font-size: 1rem;
 	}
 }
 
@@ -167,24 +86,19 @@
 	.albumsConainer {
 		margin-left: 0;
 	}
+	.tabs {
+		flex-wrap: wrap;
+		justify-content: center;
+		position: sticky;
+		top: 50px;
+	}
 
 }
 
 @media (max-width:600px) {
-	.tabs {
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-		position: sticky;
-		top: 50px;
-	}
 	.tabBtn {
 		letter-spacing: 2px;
 		font-size: 1.2em;
 		padding: 10px;
-	}
-	.album {
-		--album-padding: 0;
-		margin-bottom: 20px;
-		/* padding: var() 0; */
 	}
 }
