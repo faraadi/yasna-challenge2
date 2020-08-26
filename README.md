@@ -6,6 +6,10 @@ This Projects is a Front-End hiring challenge for [Yasna Team](https://yasna.tea
 
 it's bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`Reactjs`](https://reactjs.org). also it makes heavy use of css modules and css's custom properties. each components has a `[component].module.css` that holds its styles.
 
+BTW, its PWA. so you can install it and enjoy native experience and offline support.
+
+# Directories
+
 ``` bash
 ├── lib # modules, components and everything else...
 	├── components #various components used in apps.
@@ -69,5 +73,10 @@ Other configuration and customization are available through various escape hatch
 # A Note on Browsers Compatibility
 This App uses css's `backdrop-filter` property for background blurness effect of various parts. unfortunately, FireFox Desktop doesn't have built-in support for this property out-of-the-box. so you may miss some effect if you're gonig to see it inside Firefox browser.
 
+# Credits
+- [Next js](https://nextjs.org/) by [vercel](https://vercel.com)
+- <a href="https://iconscout.com/icons/spotify" target="_blank" rel='noreferrer noopener'>Spotify Logo Icon</a> by <a href="https://iconscout.com/contributors/microdotgraphic">Microdot Graphic</a> on <a href="https://iconscout.com">Iconscout</a>
+- favicon by [favicon.io](https://favicon.io)
+
 # License
-The source code is distributed under the MIT License.
+MIT
