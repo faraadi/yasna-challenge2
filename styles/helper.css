@@ -141,6 +141,65 @@
 
 /* end xs breakpoint */
 
+/* small breakpoint - apllies to small tablets */
+
+@media only screen and (min-width: 600px) {
+	.col.sm-auto {
+		flex: 1 0 0;
+		max-width: 100%;
+	}
+	.col-sm-1 {
+		flex: 0 0 8.3%;
+		max-width: 8.3%;
+	}
+	.col.sm-2 {
+		flex: 0 0 16.6%;
+		max-width: 16.6%;
+	}
+	.col.sm-3 {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.col.sm-4 {
+		flex: 0 0 33.3%;
+		max-width: 33.3%;
+	}
+	.col.sm-5 {
+		flex: 0 0 41.6%;
+		max-width: 41.6%;
+	}
+	.col.sm-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.col.sm-7 {
+		flex: 0 0 58.3%;
+		max-width: 58.3%;
+	}
+	.col.sm-8 {
+		flex: 0 0 66.6%;
+		max-width: 66.6%;
+	}
+	.col.sm-9 {
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.col.sm-10 {
+		flex: 0 0 83.3%;
+		max-width: 83.3%;
+	}
+	.col.sm-11 {
+		flex: 0 0 91.6%;
+		max-width: 91.6%;
+	}
+	.col.sm-12 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+/* end sm breakpoint */
+
 /* medium breakpoint - applies to 960px and larger screens */
 
 @media only screen and (min-width: 960px) {

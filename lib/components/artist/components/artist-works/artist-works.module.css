@@ -21,11 +21,6 @@
 	margin-bottom: 0;
 }
 
-.bgActive {
-	display: inline-block;
-	background-color: var(--primary);
-}
-
 .tabBtn {
 	background-color: transparent;
 	border-radius: 50px;
@@ -103,11 +98,93 @@
 	font-size: 1.2rem;
 }
 
-.album:hover .albumInfo {
-	opacity: 1;
-	background-color: rgba(0, 0, 0, .25);
+@media (min-width: 1281px) {
+	.album:hover .albumInfo {
+		opacity: 1;
+		background-color: rgba(0, 0, 0, .25);
+	}
+	.album:hover .albumName {
+		transform: translateY(-10px);
+	}
 }
 
-.album:hover .albumName {
-	transform: translateY(-10px);
+@media (max-width:1440px) {
+	.albumsConainer {
+		margin-left: 20px;
+	}
+}
+
+@media (max-width:1280px) {
+	.tabBtn {
+		font-size: 1.4em;
+		padding: 12px 20px;
+	}
+	.album {
+		display: initial;
+	}
+	.albumInfo {
+		position: static;
+		flex-direction: column;
+		opacity: 1;
+	}
+	.albumLinkIcon {
+		display: none;
+	}
+	.albumName {
+		margin-top: 10px;
+		font-size: 1.1em;
+		padding: 0;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+	}
+	.albumYear {
+		display: inline-block;
+		margin-top: 10px;
+		font-size: 1rem;
+	}
+}
+
+@media (max-width:960px) {
+	.tabsContainer {
+		position: sticky;
+		top: 0;
+		backdrop-filter: blur(5px);
+		z-index: 2;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+	.tabs {
+		display: flex;
+		align-items: center;
+	}
+	.tab {
+		margin: 0;
+	}
+	.tabBtn {
+		line-height: 1.5;
+		text-align: center;
+		color: var(--dark);
+	}
+	.albumsConainer {
+		margin-left: 0;
+	}
+
+}
+
+@media (max-width:600px) {
+	.tabs {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		position: sticky;
+		top: 50px;
+	}
+	.tabBtn {
+		letter-spacing: 2px;
+		font-size: 1.2em;
+		padding: 10px;
+	}
+	.album {
+		--album-padding: 0;
+		margin-bottom: 20px;
+		/* padding: var() 0; */
+	}
 }

@@ -7,3 +7,9 @@
 	border-radius: 100%;
 	cursor: pointer;
 }
+
+@media (max-width: 960px) {
+	.container {
+		margin-bottom: 20px;
+	}
+}
