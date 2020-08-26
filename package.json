@@ -1,25 +1,26 @@
 {
-  "name": "yasna-front-end-challenge-2",
-  "version": "0.1.0",
-  "author": {
-    "email": "faradidev@gmail.com",
-    "name": "Farhad Sharifi"
-  },
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "classnames": "^2.2.6",
-    "next": "9.5.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "tabler-icons": "^1.13.0"
-  },
-  "devDependencies": {
-    "babel-plugin-inline-react-svg": "^1.1.1",
-    "prop-types": "^15.7.2"
-  }
+	"name": "yasna-front-end-challenge-2",
+	"version": "0.1.0",
+	"author": {
+		"email": "faradidev@gmail.com",
+		"name": "Farhad Sharifi"
+	},
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"next": "9.5.2",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"tabler-icons": "^1.13.0"
+	},
+	"devDependencies": {
+		"babel-plugin-inline-react-svg": "^1.1.1",
+		"prop-types": "^15.7.2"
+	},
+	"license": "MIT"
 }
