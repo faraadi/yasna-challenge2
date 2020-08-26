@@ -6,6 +6,10 @@
 	padding: var(--album-padding) !important
 }
 
+.albumLink {
+	display: inline-flex;
+}
+
 .albumThumb {
 	width: 100%;
 }
