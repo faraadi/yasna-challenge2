@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import '../styles/index.css';
 
+/*
+	this is not a standalone page! its just a constant template between variuos pages to load global css and head tags.
+*/
+
 export default function App({ Component, pageProps }) {
 	return (
 		<>

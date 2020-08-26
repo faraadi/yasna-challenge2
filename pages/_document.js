@@ -1,4 +1,8 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+
+/*
+	Custom Document template and tags. this is not a page, but a document template to handle seo stuff and meta tags.
+*/
 
 export default class MyDocument extends Document {
 	static async getInitialProps(ctx) {
